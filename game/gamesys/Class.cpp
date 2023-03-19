@@ -11,7 +11,8 @@ instancing of objects.
 #include "../Game_local.h"
 
 #ifdef _WIN32
-#include "TypeInfo.h"
+//#include "TypeInfo.h"
+#include "typeinfo"
 #else
 #include "NoGameTypeInfo.h"
 #endif
